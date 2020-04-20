@@ -1,6 +1,8 @@
-# Sistema de Cadastro de Clientes para Desktop utilizando Arquivo Bin·rio
+# Sistema de Cadastro de Clientes para Desktop utilizando Arquivo Bin√°rio
 
-- Utiliza um arquivo bin·rio manipulado pela classe RandomAcessFile.<br>
-- Toda iteraÁ„o com o arquivo bin·rio È tratada diretamente na classe GerenciadorCliente.<br>
-- A pasta src contÍm os fontes do projeto.<br>
-- O arquivo de dados È gerado na raiz do projeto.<br>
+- Utiliza um arquivo bin√°rio manipulado pela classe RandomAcessFile.<br>
+- Os registros s√£o armazenados de forma sequ√™ncial.<br>
+- A exclus√£o √© feita de forma l√≥gica, marcando com -1 os registros exclu√≠dos.<br>
+- Toda itera√ß√£o com o arquivo bin√°rio √© tratada diretamente na classe GerenciadorCliente.<br>
+- A pasta src cont√™m os fontes do projeto.<br>
+- O arquivo de dados √© gerado na raiz do projeto.<br>
