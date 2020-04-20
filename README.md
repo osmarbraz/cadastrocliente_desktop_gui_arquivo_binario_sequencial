@@ -1,4 +1,4 @@
-# Sistema de Cadastro de Clientes para Desktop utilizando Arquivo Binário Sequêncial.
+# Sistema de Cadastro de Clientes para Desktop(JFrame) utilizando Arquivo Binário Sequêncial.
 
 - Utiliza um arquivo binário manipulado pela classe RandomAcessFile.<br>
 - Os registros são armazenados de forma sequêncial.<br>
@@ -7,3 +7,8 @@
 - Toda iteração com o arquivo binário é tratada diretamente na classe GerenciadorCliente.<br>
 - A pasta src contêm os fontes do projeto.<br>
 - O arquivo de dados é gerado na raiz do projeto.<br>
+- Operações disponíveis<br>:
+ - Incluir<br>
+ - Atualizar<br>
+ - Excluir<br>
+ - Consultar<br>
