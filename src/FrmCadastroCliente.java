@@ -279,7 +279,7 @@ public class FrmCadastroCliente extends javax.swing.JFrame {
         //Instancia o Gerenciador
         GerenciadorCliente gerente = new GerenciadorCliente();
         //Recupera o registro do arquivo
-        RegistroCliente cliente = gerente.pesquisar(clienteIdAlterar);
+        RegistroCliente cliente = gerente.pesquisarRegistro(clienteIdAlterar);
 
         //Verifica se existe algum registro no arquivo
         if (cliente != null) {
@@ -320,7 +320,7 @@ public class FrmCadastroCliente extends javax.swing.JFrame {
          //Instancia o Gerenciador
         GerenciadorCliente gerente = new GerenciadorCliente();
         //Recupera o registro do arquivo
-        RegistroCliente cliente = gerente.pesquisar(clienteIdConsultar);
+        RegistroCliente cliente = gerente.pesquisarRegistro(clienteIdConsultar);
 
         //Verifica se existe algum registro no arquivo
         if (cliente != null) {
