@@ -317,7 +317,7 @@ public class FrmCadastroCliente extends javax.swing.JFrame {
         //Pergunto ao usuário qual o id a ser alterado
         int clienteIdConsultar = Integer.parseInt(JOptionPane.showInputDialog("Digite o Id do cliente a ser consultado"));
 
-         //Instancia o Gerenciador
+        //Instancia o Gerenciador
         GerenciadorCliente gerente = new GerenciadorCliente();
         //Recupera o registro do arquivo
         RegistroCliente cliente = gerente.pesquisarRegistro(clienteIdConsultar);

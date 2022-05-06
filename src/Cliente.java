@@ -52,19 +52,19 @@ public class Cliente {
     public String getCpf() {
         return cpf;
     }
-    
-     /**
+
+    /**
      * Retorna os dados de cliente em uma String.
-     * 
+     *
      * @return Uma String com os dados.
      */
     public String paraString() {
         return (getCodigo() + " -  " + getNome() + " - " + getCpf());
     }
-    
+
     /**
      * Retorna os dados de cliente em uma String.
-     * 
+     *
      * @return Uma String com os dados.
      */
     @Override
