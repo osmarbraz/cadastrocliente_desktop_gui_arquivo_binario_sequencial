@@ -1,5 +1,7 @@
 # Sistema de Cadastro de Clientes para Desktop(JFrame) utilizando Arquivo Binário Sequencial.
 
+## Contextualização
+
 - Utiliza um arquivo binário manipulado pela classe RandomAcessFile.<br>
 - Os registros são armazenados de forma sequencial.<br>
 - A iteração com o usuário é através de uma interface baseada em JFrame.<br>
@@ -12,3 +14,7 @@
  - Atualizar<br>
  - Excluir<br>
  - Consultar<br>
+
+## Arquivo
+
+- build.xml - Arquivo de configuração da ferramenta de automação Ant.
